@@ -11,12 +11,14 @@
             "id": "41d16516be0264c0",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/网络同步 2026-08-28 20.31.59.excalidraw.md"
+                "file": "Ue/网络模块/网络同步.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "网络同步 2026-08-28 20.31.59.excalidraw"
+              "icon": "lucide-file",
+              "title": "网络同步"
             }
           }
         ]
@@ -97,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/网络同步 2026-08-28 20.31.59.excalidraw.md",
+                "file": "Ue/网络模块/网络同步.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/网络同步 2026-08-28 20.31.59.excalidraw.md",
+                "file": "Ue/网络模块/网络同步.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -159,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/网络同步 2026-08-28 20.31.59.excalidraw.md",
+                "file": "Ue/网络模块/网络同步.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -198,10 +200,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07a92dc41d951f2b",
+  "active": "41d16516be0264c0",
   "lastOpenFiles": [
-    "Ue/网络模块/网络同步.md",
     "Excalidraw/网络同步 2026-08-28 20.31.59.excalidraw.md",
+    "Ue/网络模块/网络同步.md",
     "Excalidraw/Drawing 2026-08-28 20.24.29.excalidraw.md",
     "Excalidraw/Drawing 2026-08-28 20.31.18.excalidraw.md",
     "Excalidraw/Drawing 2026-08-28 20.30.27.excalidraw.md",
