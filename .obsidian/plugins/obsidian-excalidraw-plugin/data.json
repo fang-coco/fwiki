@@ -130,8 +130,8 @@
     "libraryItems": []
   },
   "imageElementNotice": true,
-  "mdSVGwidth": 500,
-  "mdSVGmaxHeight": 800,
+  "mdSVGwidth": 800,
+  "mdSVGmaxHeight": 1200,
   "mdFont": "Cascadia",
   "mdFontColor": "Black",
   "mdBorderColor": "Black",
