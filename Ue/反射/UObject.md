@@ -486,3 +486,112 @@ void ConstructUProperty(UObject* Outer, const FPropertyParamsBase* const*& Prope
     }
 }
 ```
+
+#### UFunction
+```cpp
+//测试函数：int32 Func(float param1);
+void UMyClass::ImplementableFunc()  //UHT为我们生成了函数实体
+{
+    ProcessEvent(FindFunctionChecked("ImplementableFunc"),NULL);
+}
+void UMyClass::NativeFunc() //UHT为我们生成了函数实体，但我们可以自定义_Implementation
+{
+    ProcessEvent(FindFunctionChecked("NativeFunc"),NULL);
+}
+void UMyClass::StaticRegisterNativesUMyClass()  //之前的Native函数收集点
+{
+    UClass* Class = UMyClass::StaticClass();
+    static const FNameNativePtrPair Funcs[] = {
+        { "Func", &UMyClass::execFunc },
+        { "NativeFunc", &UMyClass::execNativeFunc },
+    };
+    FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+}
+struct Z_Construct_UFunction_UMyClass_Func_Statics
+{
+    struct MyClass_eventFunc_Parms  //把所有参数打包成一个结构来存储
+    {
+        float param1;
+        int32 ReturnValue;
+    };
+    static const UE4CodeGen_Private::FIntPropertyParams NewProp_ReturnValue= 
+    { 
+        UE4CodeGen_Private::EPropertyClass::Int, 
+        "ReturnValue", 
+        RF_Public|RF_Transient|RF_MarkAsNative,
+        (EPropertyFlags)0x0010000000000580,
+        1, 
+        nullptr, 
+        STRUCT_OFFSET(MyClass_eventFunc_Parms, ReturnValue) 
+    };
+
+    static const UE4CodeGen_Private::FFloatPropertyParams NewProp_param1 =
+    { 
+        UE4CodeGen_Private::EPropertyClass::Float,
+        "param1", 
+        RF_Public|RF_Transient|RF_MarkAsNative, 
+        (EPropertyFlags)0x0010000000000080, 
+        1,
+        nullptr, 
+        STRUCT_OFFSET(MyClass_eventFunc_Parms, param1) 
+    };
+    //函数的子属性
+    static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[]= 
+    {
+        &NewProp_ReturnValue,   //返回值也用属性表示
+        &NewProp_param1,        //参数用属性表示
+    };
+    //函数的参数
+    static const UE4CodeGen_Private::FFunctionParams FuncParams=
+    { 
+        (UObject*(*)())Z_Construct_UClass_UMyClass, //外部对象
+        "Func", //名字
+        RF_Public|RF_Transient|RF_MarkAsNative, //对象标记
+        nullptr, //父函数，在蓝图中重载基类函数时候指向基类函数版本
+        (EFunctionFlags)0x04020401, //函数标记
+        sizeof(MyClass_eventFunc_Parms),//属性的结构大小
+        PropPointers, ARRAY_COUNT(PropPointers),//属性列表
+        0,  //RPCId
+        0   //RPCResponseId
+    };
+};
+
+UFunction* Z_Construct_UFunction_UMyClass_Func()
+{
+    static UFunction* ReturnFunction = nullptr;
+    if (!ReturnFunction)
+    {   //构造函数
+        UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UMyClass_Func_Statics::FuncParams);
+    }
+    return ReturnFunction;
+}
+
+//其他函数...
+static const FClassFunctionLinkInfo FuncInfo[]= //发给ClassParams来构造UClass*
+{
+    { &Z_Construct_UFunction_UMyClass_Func, "Func" }, // 2606493682
+    { &Z_Construct_UFunction_UMyClass_ImplementableFunc, "ImplementableFunc" }, // 3752866266
+    { &Z_Construct_UFunction_UMyClass_NativeFunc, "NativeFunc" }, // 3036938731
+}; 
+//接口函数...
+void IMyInterface::Execute_ImplementableInterfaceFunc(UObject* O)
+{   //通过名字查找函数
+    UFunction* const Func = O->FindFunction("ImplementableInterfaceFunc");
+    if (Func)
+    {
+        O->ProcessEvent(Func, NULL);
+    }//找不到，其实不会报错，所以是在尝试调用一个接口函数
+}
+void IMyInterface::Execute_NativeInterfaceFunc(UObject* O)
+{   //通过名字查找函数
+    UFunction* const Func = O->FindFunction("NativeInterfaceFunc");
+    if (Func)
+    {
+        O->ProcessEvent(Func, NULL);
+    }
+    else if (auto I = (IMyInterface*)(O->GetNativeInterfaceAddress(UMyInterface::StaticClass())))
+    {   //如果找不到蓝图中的版本，则会尝试调用C++里的_Implementation默认实现。
+        I->NativeInterfaceFunc_Implementation();
+    }
+}
+```
