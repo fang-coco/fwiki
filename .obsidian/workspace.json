@@ -13,12 +13,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ue/网络模块/Actor同步.md",
+                "file": "Ue/Level Travel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Actor同步"
+              "title": "Level Travel"
+            }
+          },
+          {
+            "id": "f52c88a4383fffd2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Level Travel 2026-09-10 10.46.07.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Level Travel 2026-09-10 10.46.07.excalidraw"
+            }
+          },
+          {
+            "id": "80d9074cb4dd463d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Level Travel 2026-09-10 09.38.42.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Level Travel 2026-09-10 09.38.42.excalidraw"
+            }
+          },
+          {
+            "id": "ab1bf0bbabb4ddba",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Level Travel 2026-09-09 17.39.42.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Level Travel 2026-09-09 17.39.42.excalidraw"
+            }
+          },
+          {
+            "id": "91431c877f191439",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Level Travel 2026-09-09 17.21.28.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Level Travel 2026-09-09 17.21.28.excalidraw"
+            }
+          },
+          {
+            "id": "58ae987ebdf798a1",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Level Travel 2026-09-09 16.20.49.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Level Travel 2026-09-09 16.20.49.excalidraw"
             }
           }
         ]
@@ -83,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.16668701171875,
-    "collapsed": true
+    "width": 330.16668701171875
   },
   "right": {
     "id": "a059700f465496f7",
@@ -214,28 +273,35 @@
   },
   "active": "e5cf34c0a170f4d5",
   "lastOpenFiles": [
+    "Excalidraw/Level Travel 2026-09-10 11.06.10.excalidraw.md",
+    "Ue/Level Travel.md",
+    "Excalidraw/Level Travel 2026-09-10 10.46.07.excalidraw.md",
+    "文档书写规范.md",
+    "Pasted image 20260831111619.jpg",
+    "Pasted image 20260831111910.jpg",
+    "Pasted image 20260831112047.jpg",
+    "Pasted image 20260831112135.jpg",
+    "Pasted image 20260831142802.jpg",
+    "Pasted image 20260831143625.jpg",
+    "Ue/GC.md",
+    "Ue/反射/UObject.md",
+    "Ue/网络模块/网络初始化流程.md",
+    "Ue/网络模块/Actor同步.md",
+    "Excalidraw/Level Travel 2026-09-09 17.39.42.excalidraw.md",
+    "Excalidraw/Level Travel 2026-09-10 09.38.42.excalidraw.md",
+    "Excalidraw/Level Travel 2026-09-09 16.20.49.excalidraw.md",
+    "Excalidraw/Level Travel 2026-09-09 17.21.28.excalidraw.md",
     "Ue/网络模块/Actor同步.md~",
     "文档书写规范.md~",
-    "文档书写规范.md",
-    "Ue/网络模块/Actor同步.md",
-    "Ue/网络模块/网络初始化流程.md",
     "Ue/网络模块/网络同步.md",
     "Excalidraw/Drawing 2026-09-02 14.51.41.excalidraw.md",
     "Excalidraw/网络初始化流程 2026-09-02 15.47.51.excalidraw.md",
-    "Ue/GC.md",
     "Excalidraw/GC 2026-09-01 11.12.37.excalidraw.md",
     "Ue/GC.md~",
     "Excalidraw/GC 2026-09-01 15.56.03.excalidraw.md",
     "Excalidraw/Drawing 2026-09-01 16.07.58.excalidraw.md",
-    "Ue/反射/UObject.md",
     "Excalidraw/网络同步 2026-08-28 20.31.59.excalidraw.md",
     "Excalidraw/注册 2026-08-31 10.07.10.excalidraw.md",
-    "Pasted image 20260831143625.jpg",
-    "Pasted image 20260831142802.jpg",
-    "Pasted image 20260831112135.jpg",
-    "Pasted image 20260831112047.jpg",
-    "Pasted image 20260831111910.jpg",
-    "Pasted image 20260831111619.jpg",
     "Ue/反射",
     "未命名",
     "Excalidraw/Drawing 2026-08-28 20.24.29.excalidraw.md",
