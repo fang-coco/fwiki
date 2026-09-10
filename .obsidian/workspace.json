@@ -13,72 +13,60 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ue/Level Travel.md",
+                "file": "Ue/Actor的BeginPlay时序剖析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Level Travel"
+              "title": "Actor的BeginPlay时序剖析"
             }
           },
           {
-            "id": "f52c88a4383fffd2",
+            "id": "43cb090a8bcef29c",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Level Travel 2026-09-10 10.46.07.excalidraw.md"
+                "file": "Excalidraw/Actor的BeginPlay时序剖析 2026-09-10 16.23.29.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Level Travel 2026-09-10 10.46.07.excalidraw"
+              "title": "Actor的BeginPlay时序剖析 2026-09-10 16.23.29.excalidraw"
             }
           },
           {
-            "id": "80d9074cb4dd463d",
+            "id": "a86c54b10b64d8bf",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Level Travel 2026-09-10 09.38.42.excalidraw.md"
+                "file": "Excalidraw/Actor的BeginPlay时序剖析 2026-09-10 16.04.56.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Level Travel 2026-09-10 09.38.42.excalidraw"
+              "title": "Actor的BeginPlay时序剖析 2026-09-10 16.04.56.excalidraw"
             }
           },
           {
-            "id": "ab1bf0bbabb4ddba",
+            "id": "189e5689079c5363",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Level Travel 2026-09-09 17.39.42.excalidraw.md"
+                "file": "Excalidraw/Actor的BeginPlay时序剖析 2026-09-10 15.18.21.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Level Travel 2026-09-09 17.39.42.excalidraw"
+              "title": "Actor的BeginPlay时序剖析 2026-09-10 15.18.21.excalidraw"
             }
           },
           {
-            "id": "91431c877f191439",
+            "id": "ebf4b91eeae0342b",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Level Travel 2026-09-09 17.21.28.excalidraw.md"
+                "file": "Excalidraw/Actor的BeginPlay时序剖析 2026-09-10 15.10.21.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Level Travel 2026-09-09 17.21.28.excalidraw"
-            }
-          },
-          {
-            "id": "58ae987ebdf798a1",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Level Travel 2026-09-09 16.20.49.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Level Travel 2026-09-09 16.20.49.excalidraw"
+              "title": "Actor的BeginPlay时序剖析 2026-09-10 15.10.21.excalidraw"
             }
           }
         ]
@@ -143,7 +131,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.16668701171875
+    "width": 330.16668701171875,
+    "collapsed": true
   },
   "right": {
     "id": "a059700f465496f7",
@@ -221,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ue/网络模块/网络同步.md",
+                "file": "Ue/Actor的BeginPlay时序剖析.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -268,29 +257,41 @@
       "bases:新建数据库": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "obsidian-git:Open Git source control": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "drawio:Launch draw.io editor": false
     }
   },
   "active": "e5cf34c0a170f4d5",
   "lastOpenFiles": [
-    "Excalidraw/Level Travel 2026-09-10 11.06.10.excalidraw.md",
-    "Ue/Level Travel.md",
+    "Pasted image 20260910171615.png",
+    "Pasted image 20260910171557.png",
+    "Pasted image 20260910171526.png",
+    "Pasted image 20260910171521.png",
+    "Pasted image 20260910171417.png",
+    "Pasted image 20260910171216.png",
+    "Pasted image 20260910171159.png",
+    "Pasted image 20260910171138.png",
+    "Pasted image 20260910171102.png",
+    "2044bdaad9a44856bda4626bd0c563bd 1.webp",
+    "Excalidraw/Actor的BeginPlay时序剖析 2026-09-10 17.07.27.excalidraw.md",
+    "Pasted Image 20260910170729_667.png",
+    "Ue/Actor的BeginPlay时序剖析.md",
+    "Excalidraw/Actor的BeginPlay时序剖析 2026-09-10 16.23.29.excalidraw.md",
+    "Excalidraw/Actor的BeginPlay时序剖析 2026-09-10 16.04.56.excalidraw.md",
+    "Excalidraw/Actor的BeginPlay时序剖析 2026-09-10 15.18.21.excalidraw.md",
+    "Excalidraw/Actor的BeginPlay时序剖析 2026-09-10 15.10.21.excalidraw.md",
+    "Excalidraw/Level Travel 2026-09-09 16.20.49.excalidraw.md",
+    "Excalidraw/Level Travel 2026-09-09 17.21.28.excalidraw.md",
+    "Excalidraw/Level Travel 2026-09-09 17.39.42.excalidraw.md",
+    "Excalidraw/Level Travel 2026-09-10 09.38.42.excalidraw.md",
     "Excalidraw/Level Travel 2026-09-10 10.46.07.excalidraw.md",
+    "Ue/Level Travel.md",
+    "Excalidraw/Level Travel 2026-09-10 11.06.10.excalidraw.md",
     "文档书写规范.md",
-    "Pasted image 20260831111619.jpg",
-    "Pasted image 20260831111910.jpg",
-    "Pasted image 20260831112047.jpg",
-    "Pasted image 20260831112135.jpg",
-    "Pasted image 20260831142802.jpg",
-    "Pasted image 20260831143625.jpg",
     "Ue/GC.md",
     "Ue/反射/UObject.md",
     "Ue/网络模块/网络初始化流程.md",
     "Ue/网络模块/Actor同步.md",
-    "Excalidraw/Level Travel 2026-09-09 17.39.42.excalidraw.md",
-    "Excalidraw/Level Travel 2026-09-10 09.38.42.excalidraw.md",
-    "Excalidraw/Level Travel 2026-09-09 16.20.49.excalidraw.md",
-    "Excalidraw/Level Travel 2026-09-09 17.21.28.excalidraw.md",
     "Ue/网络模块/Actor同步.md~",
     "文档书写规范.md~",
     "Ue/网络模块/网络同步.md",
@@ -301,19 +302,13 @@
     "Excalidraw/GC 2026-09-01 15.56.03.excalidraw.md",
     "Excalidraw/Drawing 2026-09-01 16.07.58.excalidraw.md",
     "Excalidraw/网络同步 2026-08-28 20.31.59.excalidraw.md",
-    "Excalidraw/注册 2026-08-31 10.07.10.excalidraw.md",
     "Ue/反射",
     "未命名",
-    "Excalidraw/Drawing 2026-08-28 20.24.29.excalidraw.md",
-    "Excalidraw/Drawing 2026-08-28 20.31.18.excalidraw.md",
-    "Excalidraw/Drawing 2026-08-28 20.30.27.excalidraw.md",
     "Ue/网络模块",
     "Ue",
-    "2026-08-28.md",
     "未命名.base",
     "Excalidraw",
     "未命名 1.canvas",
-    "未命名.canvas",
-    "欢迎.md"
+    "未命名.canvas"
   ]
 }
