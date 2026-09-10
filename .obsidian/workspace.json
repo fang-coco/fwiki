@@ -131,8 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.16668701171875,
-    "collapsed": true
+    "width": 330.16668701171875
   },
   "right": {
     "id": "a059700f465496f7",
@@ -261,7 +260,7 @@
       "drawio:Launch draw.io editor": false
     }
   },
-  "active": "e5cf34c0a170f4d5",
+  "active": "07a92dc41d951f2b",
   "lastOpenFiles": [
     "Pasted image 20260910171615.png",
     "Pasted image 20260910171557.png",
